@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.CodeAnalysis.Common": "2.2.0",
+    "Microsoft.CodeAnalysis.CSharp": "2.2.0",
+    "Microsoft.CodeAnalysis.Workspaces.Common": "2.2.0",
+    "Microsoft.Composition": "1.0.31",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
