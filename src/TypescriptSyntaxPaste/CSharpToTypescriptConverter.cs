@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.CodeAnalysis;
 using System.Reflection;
 using Microsoft.CodeAnalysis.CSharp;
+using TypescriptSyntaxPaste.Translation;
 
 namespace TypescriptSyntaxPaste
 {
@@ -24,8 +25,11 @@ namespace TypescriptSyntaxPaste
             }
         }
 
-        public string ConvertToTypescript(string text, ISettingStore settingStore)
+        public string ConvertToTypescript(string text, ISettingStore settingStore = null)
         {
+            if (settingStore == null)
+                settingStore = new DefaultSettingStore();
+
             try
             {
                 var tree = (CSharpSyntaxTree)CSharpSyntaxTree.ParseText(text);

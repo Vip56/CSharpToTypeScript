@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>36fb278d-683f-42ba-9c9d-b4eec70e4272</ProjectGuid>
-    <RootNamespace>TypescriptSyntaxPaste.UnitTest</RootNamespace>
+    <ProjectGuid>ba2109a5-55fd-461b-90a8-d9ea42fa0526</ProjectGuid>
+    <RootNamespace>TypescriptSyntaxPaste.Console</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>

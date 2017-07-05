@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TypescriptSyntaxPaste.UnitTest")]
+[assembly: AssemblyProduct("TypescriptSyntaxPaste.Console")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("36fb278d-683f-42ba-9c9d-b4eec70e4272")]
+[assembly: Guid("ba2109a5-55fd-461b-90a8-d9ea42fa0526")]

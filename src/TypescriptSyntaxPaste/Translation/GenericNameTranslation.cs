@@ -1,8 +1,6 @@
 ﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TypescriptSyntaxPaste.VirtualTranslation;
+using TypescriptSyntaxPaste.VirtualTranslation.Delegates;
 
 namespace TypescriptSyntaxPaste.Translation
 {
@@ -34,7 +32,6 @@ namespace TypescriptSyntaxPaste.Translation
                     Func = new ComparisonGenericNameTranslation(this);
                     break;
             }
-
         }
 
         public TypeArgumentListTranslation TypeArgumentList { get; set; }
@@ -61,7 +58,6 @@ namespace TypescriptSyntaxPaste.Translation
 
             return NormalTranslate();
         }
-
 
         protected string NormalTranslate(bool excludeTypeParameter = false)
         {
